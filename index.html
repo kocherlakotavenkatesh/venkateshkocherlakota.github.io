@@ -8,9 +8,15 @@
 				background-color: #000;
 			}
 		</style>
+		<script type="text/javascript">
+			function ClickedMe() {
+				let button = document.getElementById("contactButton");
+				button.style.backgroundColor = "green";
+				alert("Clicked that DIV!");
+			}
+		</script>
 	</head>
 	<body>
-		<script type="text/javascript" src="index.js"></script>
 		<div id="fancyTitle">
 			<div id="contactButton" onclick="ClickedMe()"></div>
 		</div>
